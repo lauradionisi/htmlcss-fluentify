@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+header {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  background-color: #0c325a;
+  padding: 20px;
+}
+
+div#logo {
+  display: inline;
+}
+
+#logo img {
+  float: left;
+  height: 60px;
+  padding-right: 20px;
+}
+
+.nav-left {
+  position: absolute;
+  float: left;
+  top: 50%;
+
+}
+.nav-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  float: right;
+}
+ul,li {
+  display: inline;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-white {
+  border: 1px solid white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.button-green {
+  border: 1px solid transparent;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #7cbb02;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.banner {
+  position: relative;
+  height: 70vh;
+  background-color: #0c325a;
+}
+.banner-img img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 75%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  padding: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.button-banner {
+  position: absolute;
+  top:50%;
+  padding: 50px;
+}
